@@ -12,7 +12,7 @@ permalink: /tareas/
   <ol>
   {%-  assign firstdocs = col.docs | slice: 0,3 %}
   {%- for elem in firstdocs %}
-    <li> <b>path:</b> {{ elem.path }} <a href="{{ elem.url }}">Ver</a> </li>
+    <li> <b>path:</b> {{ elem.path }} <a href="{{ site.baseurl }}{{ elem.url }}">Ver</a> </li>
     <p>{{ elem.content | markdownify }}</p>
   {%- endfor %}
   </ol>
