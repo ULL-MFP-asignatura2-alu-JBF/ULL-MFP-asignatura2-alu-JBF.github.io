@@ -3,7 +3,7 @@ layout: page
 title: Tareas
 permalink: /tareas/
 ---
-
+    
 <div style="border-style: solid; border-radius: 25px;">
 <ol>
 {%- for col in site.collections %}
